@@ -1,0 +1,165 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #e5ddd5;
+}
+
+/* LOGO */
+.logo {
+    padding: 25px 40px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    align-content: center;
+}
+.login,
+.qr-tag {
+    width: 70%;
+    margin: 20px ;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+/* DOWNLOAD CARD */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+/* LEFT ICON */
+.line img {
+    width: 60px;
+}
+
+/* TEXT */
+.hero-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.hero-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.hero-text .head {
+    font-size: 14px;
+    color: #667781;
+}
+
+/* DOWNLOAD BUTTON */
+.download-button button {
+    background-color: #25d366;
+    color: #111;
+    border: 1px solid #25d366;
+    padding: 12px 26px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    
+}
+
+.download-button button:hover {
+    background-color: #ecf1ee;
+    transition: background-color 0.4s ease;
+}
+
+.download-button img {
+    width: 16px;
+}
+.scan-to {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+.check {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px
+}
+.arrow {
+    width: 20px;
+}
+.qr-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.qr{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 400px;
+    height: 400px;
+}
+.symbol{
+    width: 30px;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.qr-code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.lofinwithphone button{
+    margin-top: 20px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #008069;
+    cursor: pointer;
+    border-bottom: 2px solid #25d366;
+    padding-bottom: 3px;
+}
+.need-help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+
